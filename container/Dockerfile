@@ -30,9 +30,9 @@ USER zowe
 WORKDIR /component
 
 ##################################
-# copy files
-COPY --chown=zowe:zowe component .
-COPY --chown=zowe:zowe component/LICENSE /licenses
+# # copy files
+# COPY --chown=zowe:zowe component .
+# COPY --chown=zowe:zowe component/LICENSE /licenses
 
 ##################################
 # build component
